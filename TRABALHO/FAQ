@@ -1,4 +1,4 @@
-    FAQ(duvida){
+     FAQ(duvida){
 
     console.log(`--------------------------------------------------- PERGUNTAS FREQUENTES ---------------------------------------------------
     
@@ -42,4 +42,8 @@ switch(duvida){
         console.log('Ligue para a nossa central de atendimento pelo numero de 4002-8922, lá será consultado seus dados e resolveremos seu problema')
     break
         
+    case `SAIR` || 'sair || Sair':
+    loop = false
+    break
 }
+    
